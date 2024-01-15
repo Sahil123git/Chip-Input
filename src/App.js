@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h3 className="decorativeHeader">Vegetagles You can Search: </h3>
+        <h3 className="decorativeHeader">You can Search Vegetables here :- </h3>
         <div className="bottomSpace">
           {chipText.map((ele) => (
             <span key={ele._id}>{ele.displayName}, </span>

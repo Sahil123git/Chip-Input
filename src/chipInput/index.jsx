@@ -41,6 +41,7 @@ const InputChip = ({ chipText }) => {
   };
   const addTags = (event) => {
     const text = event.target.value;
+    console.log(text);
     if (text === "" && event.key === "Backspace" && selected.length > 0) {
       if (isBackSpace) {
         removeTags(selected[selected.length - 1]._id);
@@ -50,11 +51,13 @@ const InputChip = ({ chipText }) => {
       }
     } else if (event.key === "Enter" && text !== "") {
       chipEle.current.value = "";
+      setIsBackSpace(false);
       const word = tags.find(
         (ele) => ele.isActive && ele.displayName.startsWith(text)
       );
       chipAdd(word);
     } else {
+      setIsBackSpace(false);
       if (text === "") {
         setFilteredTags([]);
       } else {

@@ -4,7 +4,7 @@ const InputBox = ({ chipEle, addTags }) => {
       type="text"
       ref={chipEle}
       onKeyUp={addTags}
-      placeholder="Press enter to add tags"
+      placeholder="Press enter or Select using Mouse to Add Tags"
     />
   );
 };
