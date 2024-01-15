@@ -13,6 +13,10 @@ function App() {
         </div>
       </div>
       <InputChip chipText={chipText} />
+      <div className="footer">
+        <div>Name: Sahil Dussa</div>
+        <div>Email: sahildussa457@gmail.com</div>
+      </div>
     </div>
   );
 }

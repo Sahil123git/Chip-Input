@@ -41,7 +41,6 @@ const InputChip = ({ chipText }) => {
   };
   const addTags = (event) => {
     const text = event.target.value;
-    console.log(text);
     if (text === "" && event.key === "Backspace" && selected.length > 0) {
       if (isBackSpace) {
         removeTags(selected[selected.length - 1]._id);
