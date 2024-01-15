@@ -49,4 +49,25 @@ export const chipText = [
     isActive: true,
     _id: "53refdsaer5refd10",
   },
+
+  {
+    displayName: "Sweet Patato",
+    isActive: true,
+    _id: "53refdsaer5refd11",
+  },
+  {
+    displayName: "Snow Peas",
+    isActive: true,
+    _id: "53refdsaer5refd12",
+  },
+  {
+    displayName: "Squash",
+    isActive: true,
+    _id: "53refdsaer5refd13",
+  },
+  {
+    displayName: "Shallots",
+    isActive: true,
+    _id: "53refdsaer5refd14",
+  },
 ];

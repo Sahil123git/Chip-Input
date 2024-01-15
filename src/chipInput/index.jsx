@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import "./inputChip.css";
+import "./chipInput.css";
 import DropDown from "./DropDown";
 import InputBox from "./InputBox";
 import SelectedChips from "./SelectedChips";

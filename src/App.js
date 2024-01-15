@@ -1,4 +1,4 @@
-import InputChip from "./InputChip";
+import InputChip from "./chipInput";
 import "./App.css";
 import { chipText } from "./staticData";
 function App() {
