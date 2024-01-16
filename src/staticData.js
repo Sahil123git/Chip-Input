@@ -1,72 +1,71 @@
 export const chipText = [
   {
-    displayName: "Potato",
+    displayName: "John Doe",
     isActive: true,
     _id: "53refdsaer5refd1",
   },
   {
-    displayName: "Lady Finger",
+    displayName: "Raj Sharma",
     isActive: true,
     _id: "53refdsaer5refd2",
   },
   {
-    displayName: "Tomato",
+    displayName: "Rohit Kumar",
     isActive: true,
     _id: "53refdsaer5refd3",
   },
   {
-    displayName: "Carrot",
+    displayName: "Rohan Gupta",
     isActive: true,
     _id: "53refdsaer5refd4",
   },
   {
-    displayName: "Beans",
+    displayName: "Ram Das",
     isActive: true,
     _id: "53refdsaer5refd5",
   },
   {
-    displayName: "Radish",
+    displayName: "Sahil Dussa",
     isActive: true,
     _id: "53refdsaer5refd6",
   },
   {
-    displayName: "Cucumber",
+    displayName: "Soham Gupta",
     isActive: true,
     _id: "53refdsaer5refd7",
   },
   {
-    displayName: "Broccoli",
+    displayName: "Adil Sharma",
     isActive: true,
     _id: "53refdsaer5refd8",
   },
   {
-    displayName: "Spinach",
+    displayName: "Aditya Verma",
     isActive: true,
     _id: "53refdsaer5refd9",
   },
   {
-    displayName: "Beetroot",
+    displayName: "Adiya Gupta",
     isActive: true,
     _id: "53refdsaer5refd10",
   },
-
   {
-    displayName: "Sweet Patato",
+    displayName: "Jaiveer Singh",
     isActive: true,
     _id: "53refdsaer5refd11",
   },
   {
-    displayName: "Snow Peas",
+    displayName: "Jackie Chan",
     isActive: true,
     _id: "53refdsaer5refd12",
   },
   {
-    displayName: "Squash",
+    displayName: "Josh Rick",
     isActive: true,
     _id: "53refdsaer5refd13",
   },
   {
-    displayName: "Shallots",
+    displayName: "Jai Veer",
     isActive: true,
     _id: "53refdsaer5refd14",
   },

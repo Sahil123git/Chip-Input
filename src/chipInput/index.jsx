@@ -52,7 +52,9 @@ const InputChip = ({ chipText }) => {
       chipEle.current.value = "";
       setIsBackSpace(false);
       const word = tags.find(
-        (ele) => ele.isActive && ele.displayName.startsWith(text)
+        (ele) =>
+          ele.isActive &&
+          ele.displayName.toLowerCase().startsWith(text.toLowerCase())
       );
       chipAdd(word);
     } else {
@@ -62,7 +64,10 @@ const InputChip = ({ chipText }) => {
       } else {
         const arr = [];
         tags.forEach((ele) => {
-          if (ele.isActive === true && ele.displayName.startsWith(text)) {
+          if (
+            ele.isActive === true &&
+            ele.displayName.toLowerCase().startsWith(text.toLowerCase())
+          ) {
             arr.push(ele);
           }
         });
